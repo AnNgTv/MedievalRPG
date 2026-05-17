@@ -1,0 +1,42 @@
+# Tiếng Việt cho MedievalRPG
+prefix: "&6&lMedievalRPG &8» &f"
+commands:
+  no-permission: "&cBạn không có quyền sử dụng lệnh này."
+  only-players: "Chỉ người chơi mới có thể sử dụng lệnh này!"
+  class-chosen: "&aBạn hiện là &6{class}&a!"
+  invalid-class: "&cLớp nhân vật không hợp lệ! Hãy chọn từ menu."
+  lang-updated: "&aNgôn ngữ đã được thay đổi thành &bTiếng Việt&a!"
+gui:
+  class-title: "&8Chọn Lớp Nhân Vật"
+  lang-title: "&8Chọn Ngôn Ngữ"
+  warrior-name: "&c&lChiến Binh"
+  warrior-lore:
+    - "&7Máu cao và sát thương vật lý mạnh."
+    - ""
+    - "&eNhấn để chọn!"
+  mage-name: "&b&lPhù Thủy"
+  mage-lore:
+    - "&7Bậc thầy phép thuật và trí tuệ."
+    - ""
+    - "&eNhấn để chọn!"
+  paladin-name: "&e&lHộ Vệ"
+  paladin-lore:
+    - "&7Chống chịu cực tốt với phòng thủ cao."
+    - ""
+    - "&eNhấn để chọn!"
+  thief-name: "&a&lSát Thủ"
+  thief-lore:
+    - "&7Tốc độ cao và tỉ lệ chí mạng lớn."
+    - ""
+    - "&eNhấn để chọn!"
+  en-name: "&fTiếng Anh"
+  vi-name: "&fTiếng Việt"
+stats:
+  title: "&6=== Chỉ Số RPG Của Bạn ==="
+  class: "&eLớp: &f{class}"
+  level: "&eCấp độ: &f{level}"
+  xp: "&eKinh nghiệm: &f{xp}/{max_xp}"
+  strength: "&eSức mạnh: &f{val}"
+  constitution: "&eThể chất: &f{val}"
+  intelligence: "&eTrí tuệ: &f{val}"
+  dexterity: "&eKhéo léo: &f{val}"

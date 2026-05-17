@@ -1,0 +1,42 @@
+# English localization for MedievalRPG
+prefix: "&6&lMedievalRPG &8» &f"
+commands:
+  no-permission: "&cYou do not have permission to use this command."
+  only-players: "Only players can use this command!"
+  class-chosen: "&aYou are now a &6{class}&a!"
+  invalid-class: "&cInvalid class! Choose from the menu."
+  lang-updated: "&aLanguage updated to &bEnglish&a!"
+gui:
+  class-title: "&8Choose Your Class"
+  lang-title: "&8Select Language"
+  warrior-name: "&c&lWarrior"
+  warrior-lore:
+    - "&7High health and physical damage."
+    - ""
+    - "&eClick to select!"
+  mage-name: "&b&lMage"
+  mage-lore:
+    - "&7Master of magic and intelligence."
+    - ""
+    - "&eClick to select!"
+  paladin-name: "&e&lPaladin"
+  paladin-lore:
+    - "&7The ultimate tank with high defense."
+    - ""
+    - "&eClick to select!"
+  thief-name: "&a&lThief"
+  thief-lore:
+    - "&7High speed and critical strike chance."
+    - ""
+    - "&eClick to select!"
+  en-name: "&fEnglish"
+  vi-name: "&fTiếng Việt"
+stats:
+  title: "&6=== Your RPG Stats ==="
+  class: "&eClass: &f{class}"
+  level: "&eLevel: &f{level}"
+  xp: "&eXP: &f{xp}/{max_xp}"
+  strength: "&eStrength: &f{val}"
+  constitution: "&eConstitution: &f{val}"
+  intelligence: "&eIntelligence: &f{val}"
+  dexterity: "&eDexterity: &f{val}"

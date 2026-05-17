@@ -4,6 +4,7 @@ import java.util.UUID;
 
 public class PlayerData {
     private final UUID uuid;
+    private String lang = "en";
     private RPGClass rpgClass = RPGClass.NONE;
     private int level = 1;
     private int xp = 0;
@@ -19,6 +20,8 @@ public class PlayerData {
     }
 
     public UUID getUuid() { return uuid; }
+    public String getLang() { return lang; }
+    public void setLang(String lang) { this.lang = lang; }
     public RPGClass getRpgClass() { return rpgClass; }
     public void setRpgClass(RPGClass rpgClass) { this.rpgClass = rpgClass; }
     public int getLevel() { return level; }

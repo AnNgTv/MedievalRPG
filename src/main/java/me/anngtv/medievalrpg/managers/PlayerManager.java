@@ -28,6 +28,7 @@ public class PlayerManager {
             for (String key : config.getConfigurationSection("players").getKeys(false)) {
                 UUID uuid = UUID.fromString(key);
                 PlayerData data = new PlayerData(uuid);
+                data.setLang(config.getString("players." + key + ".lang", "en"));
                 data.setRpgClass(RPGClass.valueOf(config.getString("players." + key + ".class", "NONE")));
                 data.setLevel(config.getInt("players." + key + ".level", 1));
                 data.setXp(config.getInt("players." + key + ".xp", 0));
@@ -43,6 +44,7 @@ public class PlayerManager {
     public void saveAll() {
         for (PlayerData data : playerDataMap.values()) {
             String path = "players." + data.getUuid().toString();
+            config.set(path + ".lang", data.getLang());
             config.set(path + ".class", data.getRpgClass().name());
             config.set(path + ".level", data.getLevel());
             config.set(path + ".xp", data.getXp());

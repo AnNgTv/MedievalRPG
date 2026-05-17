@@ -1,0 +1,14 @@
+name: MedievalRPG
+version: ${project.version}
+main: me.anngtv.medievalrpg.MedievalRPG
+api-version: 1.13
+author: AnNgTv
+description: A Cisco-inspired Medieval RPG plugin.
+commands:
+  rpg:
+    description: Main RPG command.
+    usage: /rpg <stats|class|help>
+permissions:
+  medievalrpg.use:
+    description: Default permission for RPG commands.
+    default: true

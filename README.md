@@ -4,11 +4,13 @@ A Cisco-inspired Medieval RPG plugin for Minecraft, supporting all versions from
 
 ## 🛡️ Features
 
-- **RPG Classes:** Choose from four distinct classes:
+- **RPG Classes:** Choose from four distinct classes via an **Interactive GUI**:
   - **Warrior:** High health and physical damage.
   - **Mage:** Master of magic and intelligence.
-  - **Paladin:** The ultimate tank with high constitution.
+  - **Paladin:** The ultimate tank with high defense.
   - **Thief:** High speed and critical strike potential.
+- **Localization:** Full support for multiple languages. Players can switch languages in-game.
+  - Supported: **English**, **Vietnamese (Tiếng Việt)**.
 - **Dynamic Stats:**
   - **Strength:** Increases your physical damage output.
   - **Constitution:** Reduces incoming damage.
@@ -16,15 +18,15 @@ A Cisco-inspired Medieval RPG plugin for Minecraft, supporting all versions from
   - **Dexterity:** (Ready for speed/crit expansion).
 - **Leveling System:** Gain XP by defeating mobs. Leveling up automatically increases your core attributes.
 - **Cross-Version Support:** Works on any server version from 1.8.x to 1.21.x using a single JAR.
-- **Data Saving:** Player progress is automatically saved to `players.yml`.
 
 ## 🚀 Commands
 
 | Command | Description |
 | :--- | :--- |
+| `/rpg menu` | Opens the **Class Selection GUI**. |
+| `/rpg lang` | Opens the **Language Selection GUI**. |
+| `/rpg stats` | View your current level, XP, and stats in your chosen language. |
 | `/rpg help` | Displays the help menu. |
-| `/rpg stats` | View your current level, XP, and stats. |
-| `/rpg class <type>` | Choose your class (Warrior, Mage, Paladin, Thief). |
 
 ## 🔑 Permissions
 
